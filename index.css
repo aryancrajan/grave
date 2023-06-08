@@ -14,9 +14,7 @@ header {
     gap:20px;
 
 }
-.navu > p {
-    margin-right: 50px;
-}
+
 #designation {
     opacity: .6;
 }
@@ -27,6 +25,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
+    cursor: pointer;
 
 }
 .leftHead {
@@ -67,7 +67,19 @@ body{
     border: 1px solid #D3D7DC;
     border-radius: 4px;
 }
-
+h2{
+    position: absolute;
+    width: 206px;
+    height: 40px;
+    left: 43px;
+    top: 88px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+color: #024102;
+}
 .pay{
     display: flex;
     flex-direction: row;
@@ -93,7 +105,7 @@ body{
 
 }
 
-::placeholder { 
+.act::placeholder { 
     color: white;
     opacity: 1; 
   }
@@ -104,6 +116,11 @@ body{
     color: #FFFFFF;
     border: 5px solid #6C757D;
 }
+
+.inact::placeholder { 
+    color: white;
+    opacity: 1; 
+  }
 
 
 .title{
@@ -128,6 +145,8 @@ table {
     border: 10px solid white;
     border-radius: 5px;
   }
+
+
 
   footer{
     background-color: #6C757D;
