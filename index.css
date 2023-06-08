@@ -4,6 +4,7 @@ header {
     color: white;
     width: 100%;
     justify-content: center;
+    flex-wrap: wrap;
 
 }
 .rightHead {
@@ -50,22 +51,22 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: #F8F9FA;
 }
-.search-bar{
+#searchBar{
     display: flex;
     flex-direction: row;
     border-bottom: 50px;
+    justify-content: space-between;
+    flex-wrap: wrap;
 
 }
 
-.searchpay{
+.searchPay{
     display: flex;
     flex-direction: row;
-    gap: 100px;
+    justify-content: right;
 }
-
 #search{
     box-sizing: border-box;
-    position: absolute;
     height: 40px;
     left: 60.76%;
     right: 15.81%;
@@ -73,9 +74,27 @@ body{
     background: #FFFFFF;
     border: 1px solid #D3D7DC;
     border-radius: 4px;
+    margin-top: 50px;
+    margin-right: 50px
 }
+.pay{
+    padding: 12px 24px;
+    gap: 4px; 
+    width: 149px;
+    height: 40px;
+    right: 43px;
+    top: 120px;
+    background: #28A745;
+    border-radius: 54px;
+    border-color: #28A745;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
 h2{
-    position: absolute;
+    margin-left: 30px;
+    margin-top: 50px;
     width: 206px;
     height: 40px;
     left: 43px;
@@ -87,22 +106,7 @@ h2{
     line-height: 40px;
 color: #024102;
 }
-.pay{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 12px 24px;
-    gap: 4px; 
-    position: absolute;
-    width: 149px;
-    height: 40px;
-    right: 43px;
-    top: 120px;
-    background: #28A745;
-    border-radius: 54px;
-    border-color: #28A745;
-    color: #FFFFFF;
-}
+
 
 .act{
     background: #20C997;
@@ -160,6 +164,8 @@ table {
     color: white;
     align-items: end;
     height: 70px;
+    flex-wrap: wrap;
+    width: 100%;
 }
 #copyRight {
     padding-left: 20px;
