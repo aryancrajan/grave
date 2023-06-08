@@ -1,0 +1,150 @@
+header {
+    background-color: #343A40;
+    display: flex;
+    color: white;
+    width: 100%;
+    justify-content: center;
+
+}
+.rightHead {
+    margin-right: 30px;
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    gap:20px;
+
+}
+.navu > p {
+    margin-right: 50px;
+}
+#designation {
+    opacity: .6;
+}
+.user > p {
+    margin: 0;
+}
+.middleHead ,.navu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.leftHead {
+    margin-right: auto;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    gap:5px;
+
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #F8F9FA;
+}
+.search-bar{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 50px;
+
+}
+
+.searchpay{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+#search{
+    box-sizing: border-box;
+    position: absolute;
+    height: 40px;
+    left: 60.76%;
+    right: 15.81%;
+    top: 120px;
+    background: #FFFFFF;
+    border: 1px solid #D3D7DC;
+    border-radius: 4px;
+}
+
+.pay{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 24px;
+    gap: 4px; 
+    position: absolute;
+    width: 149px;
+    height: 40px;
+    right: 43px;
+    top: 120px;
+    background: #28A745;
+    border-radius: 54px;
+    border-color: #28A745;
+    color: #FFFFFF;
+}
+
+.act{
+    background: #20C997;
+    color: #FFFFFF;
+    border: 5px solid hsl(162, 73%, 46%);
+    border-radius: 5px;
+
+}
+
+::placeholder { 
+    color: white;
+    opacity: 1; 
+  }
+
+.inact{
+    background-color: #6C757D;
+    border-radius: 5px;
+    color: #FFFFFF;
+    border: 5px solid #6C757D;
+}
+
+
+.title{
+    display: block;
+    display: inline;
+}
+
+table {
+    border-collapse: collapse;
+    width: 1399px;
+    margin: 30px 50px 50px 50px;
+    font-family: 'Roboto', sans-serif;
+    border-top: 50px;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+
+  tr{
+    border: 10px solid white;
+    border-radius: 5px;
+  }
+
+  footer{
+    background-color: #6C757D;
+    display: flex;
+    color: white;
+    align-items: end;
+    height: 70px;
+}
+#copyRight {
+    margin-left: 30px;
+
+}
+#foot {
+    height: 60px;
+    display: flex;
+    margin-left: auto;
+    gap: 30px;
+    margin-right: 50px;
+    align-items: center;
+}
