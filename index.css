@@ -5,6 +5,8 @@ header {
     width: 100%;
     justify-content: center;
     flex-wrap: wrap;
+    padding-bottom: 20px;
+    
 
 }
 .rightHead {
