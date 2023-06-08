@@ -14,6 +14,13 @@ header {
     gap:20px;
 
 }
+.navu:hover{
+    border: 3px solid #6C757D;
+    border-radius: 40px;
+    background-color: #6C757D;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 #designation {
     opacity: .6;
@@ -130,7 +137,7 @@ color: #024102;
 
 table {
     border-collapse: collapse;
-    width: 1399px;
+    width: 100%;
     margin: 30px 50px 50px 50px;
     font-family: 'Roboto', sans-serif;
     border-top: 50px;
@@ -147,7 +154,6 @@ table {
   }
 
 
-
   footer{
     background-color: #6C757D;
     display: flex;
@@ -156,7 +162,7 @@ table {
     height: 70px;
 }
 #copyRight {
-    margin-left: 30px;
+    padding-left: 20px;
 
 }
 #foot {
@@ -166,4 +172,10 @@ table {
     gap: 30px;
     margin-right: 50px;
     align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    .footer {
+        width: 100%;
+    }
 }
