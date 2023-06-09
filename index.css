@@ -10,11 +10,11 @@ header {
 
 }
 .rightHead {
-    margin-right: 30px;
+    margin-right: 39px;
     display: flex;
     margin-left: auto;
     align-items: center;
-    gap:20px;
+    gap:22px;
 
 }
 .navu:hover{
@@ -35,9 +35,20 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 3px;
     cursor: pointer;
 
+}
+
+.middleHead{
+    padding-left: 45px;
+}
+
+.midHead{
+    display: flex;
+    flex-direction: row; 
+    gap: 65px;
+        
 }
 .leftHead {
     margin-right: auto;
@@ -182,8 +193,64 @@ table {
     align-items: center;
 }
 
-@media screen and (min-width: 768px) {
-    .footer {
-        width: 100%;
+@media screen and (max-width:850px) {
+
+    header{
+        background-color: #20C997;
+    }
+
+    .midHead{
+       display: flex;
+       flex-direction: row; 
+       gap: 60px;
+     padding-left: 59px;
+     padding-right: 90px;
     }
 }
+
+@media screen and (max-width:477px){
+    .text{
+        display: none;
+    }
+
+    .rightHead {
+        margin-right: 48px;
+        display: flex;
+        margin-left: -17px;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .user{
+        display: contents;
+        gap: 10px;
+    }
+
+    .searchPay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: -51px;
+    margin-bottom: -50px;
+    }
+
+    #searchBar {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 50px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }   
+
+    table{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 26px 50px 50px 0px;
+    font-family: 'Roboto', sans-serif;
+    border-top: 50px;
+}
+}
+
