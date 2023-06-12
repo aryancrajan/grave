@@ -5,7 +5,7 @@ header {
     width: 100%;
     justify-content: center;
     flex-wrap: wrap;
-    padding-bottom: 20px;
+    padding-bottom: 2px;
     
 
 }
@@ -47,7 +47,7 @@ header {
 .midHead{
     display: flex;
     flex-direction: row; 
-    gap: 65px;
+    gap: 170px;
         
 }
 .leftHead {
@@ -182,6 +182,7 @@ table {
 }
 #copyRight {
     padding-left: 20px;
+    height: 59px;
 
 }
 #foot {
@@ -191,6 +192,7 @@ table {
     gap: 30px;
     margin-right: 50px;
     align-items: center;
+
 }
 
 @media screen and (max-width:850px) {
@@ -214,7 +216,7 @@ table {
     }
 
     .rightHead {
-        margin-right: 48px;
+        margin-right: -11px;
         display: flex;
         margin-left: -17px;
         align-items: center;
@@ -252,5 +254,35 @@ table {
     font-family: 'Roboto', sans-serif;
     border-top: 50px;
 }
+footer{
+    background-color: #6C757D;
+    display: flex;
+    color: white;
+    align-items: end;
+    height: 70px;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column;
 }
 
+#foot {
+    height: 60px;
+    display: flex;
+    margin-left: auto;
+    gap: 0px;
+    margin-right: 50px;
+    flex-direction: column;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+
+}
+.footP{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+}
