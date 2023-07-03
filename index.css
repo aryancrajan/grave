@@ -5,23 +5,23 @@ header {
     width: 100%;
     justify-content: center;
     flex-wrap: wrap;
-    padding-bottom: 5px;
+    padding-bottom: .3125em;
     
 
 }
 .rightHead {
-    margin-right: 39px;
+    margin-right: 2.43em;
     display: flex;
     margin-left: auto;
     align-items: center;
-    gap:22px;
+    gap: 1.375em;;
 }
 .navu:hover{
-    border: 3px solid #6C757D;
-    border-radius: 40px;
+    border: .187em solid #6C757D;
+    border-radius: 2.5em;
     background-color: #6C757D;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: .625em;
+    padding-right: .625em;
 }
 
 #designation {
@@ -34,27 +34,27 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 3px;
+    gap: 0.1875em;;
     cursor: pointer;
 
 }
 
 .middleHead{
-    padding-left: 45px;
+    padding-left: 2.81em;
 }
 
 .midHead{
     display: flex;
     flex-direction: row; 
-    gap: 170px;
+    gap: 10.625em;
         
 }
 .leftHead {
     margin-right: auto;
-    margin-left: 30px;
+    margin-left: 1.875em;
     display: flex;
     align-items: center;
-    gap:5px;
+    gap:.3125em;
 
 }
 
@@ -109,12 +109,10 @@ h2{
     margin-top: 50px;
     width: 206px;
     height: 40px;
-    left: 43px;
-    top: 88px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 800;
-    font-size: 32px;
+    font-size: 2em;
     line-height: 40px;
 color: #024102;
 }
